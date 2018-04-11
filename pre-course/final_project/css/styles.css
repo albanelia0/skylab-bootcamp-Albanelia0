@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Antic', sans-serif;
+}
+.pasapalabra {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  flex-basis: 60px;
+  background: #757575;
+}
+.content {
+  flex-grow: 1;
+  display: flex;
+
+}
+
+
+.content1 {
+  flex-basis: 50%;
+  background-image: url("https://orig00.deviantart.net/8d25/f/2012/338/5/2/libreta_png_by_anyelalaselenatica-d5n2xce.png");
+  background-color: #2C3469;
+  color: white;
+  padding: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.instructions{
+  text-align: center;
+
+}
+
+.buttonStart {
+  display: inline-block;
+  font-size: 20px;
+  margin: 25px;
+  padding: 10px;
+  cursor: pointer;
+  background: rgba(46, 143, 223, 0.6);
+}
+
+.content2 {
+  flex-basis: 50%;
+  background: #80CBC4;
+
+
+}
+
+.letters {
+  background: rgba(0,0,0,0.2);
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.letter {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display:inline-block;
+  margin: 5px;
+  padding: 10px;
+  width: 50px;
+  background: rgb(44, 50, 109);
+}
+.letter.green {
+  background: green;
+}
+.letter.red {
+  background: red;
+}
+
+#actions {
+  padding: 25px;
+}
+
+#screen {
+  background: #73A19D;
+  height: 50%;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+
+}
+.score {
+  margin-top: 20px;
+  font-size: 20px;
+  background: transparent;
+  border: 3px;
+  height: 100px;
+  width: 100%;
+
+}
+.questions {
+  color: #28573d;
+}
+.answer {
+  color: #28573d;
+}
+#answer {
+  background: #73A19D;
+  border: 3px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.button-action {
+  cursor: pointer;
+  padding: 7px;
+  background: rgba(255,255,255,0.6);
+  margin-left: 10px;
+}

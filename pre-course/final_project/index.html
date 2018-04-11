@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>pasapalabra</title>
+  <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Antic|Calligraffitti" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="pasapalabra">
+
+    <div class="header"></div>
+    <div class="content">
+
+      <div class="content1">
+        <h1 class="title">Pasapalabra!</h1>
+        <div class="instructions">
+          <h4>INSTRUCCIONES DEL JUEGO PASAPALABRA</h4>
+          <p>
+            To start the game click on 'Start'! <br>
+            When the question appears, write the aswer in 'answer' and click on GO. If you want to pass word, click on 'pasapalabra'
+            or click Go without any answer. In the end you will get the final result. enjoy the game!
+          </p>
+        </div>
+      </div>
+      <div class="content2">
+        <span class="buttonStart" onclick="eventStart()">
+          Start
+        </span>
+        <div class="letters">
+          <div id="a" class="letter">A</div>
+          <div id="b" class="letter">B</div>
+          <div id="c" class="letter">C</div>
+          <div id="d" class="letter">D</div>
+          <div id="e" class="letter">E</div>
+          <div id="f" class="letter">F</div>
+          <div id="g" class="letter">G</div>
+          <div id="h" class="letter">H</div>
+          <div id="i" class="letter">I</div>
+          <div id="j" class="letter">J</div>
+          <div id="k" class="letter">K</div>
+          <div id="l" class="letter">L</div>
+          <div id="m" class="letter">M</div>
+          <div id="n" class="letter">N</div>
+          <div id="ñ" class="letter">Ñ</div>
+          <div id="o" class="letter">O</div>
+          <div id="p" class="letter">P</div>
+          <div id="q" class="letter">Q</div>
+          <div id="r" class="letter">R</div>
+          <div id="s" class="letter">S</div>
+          <div id="t" class="letter">T</div>
+          <div id="u" class="letter">U</div>
+          <div id="v" class="letter">V</div>
+          <div id="w" class="letter">W</div>
+          <div id="x" class="letter">X</div>
+          <div id="y" class="letter">Y</div>
+          <div id="z" class="letter">Z</div>
+        </div>
+        <div id="actions">
+          <div class="questions">
+            <h3>Questions</h3>
+            <textarea  id="screen"  rows="3" disabled></textarea>
+          </div>
+          <div class="answer">
+            <h3>Answer</h3>
+            <form>
+              <input type="text" id="answer" autocomplete="off" placeholder="write the answer" />
+              <span class="button-action" id="submit" onclick="eventSubmit()">Go</span>
+              <span class="button-action" id="pasapalabra" onclick="eventPasapalabra()">Pasapalabra</span>
+            </form>
+          </div>
+          <textarea class="score" id="score" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
