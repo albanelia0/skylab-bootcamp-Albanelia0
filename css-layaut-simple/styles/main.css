@@ -1,0 +1,40 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #757575;
+}
+
+header {
+  background: #26A69A;
+  height: 15%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 70%;
+  background: olive;
+  float: right;
+}
+
+aside, p {
+  background: #b68b8b;
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+
+footer {
+  height: 15%;
+  width: 100%;
+  background: papayawhip;
+}
